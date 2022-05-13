@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Form cadastro</title>
+</head>
+
+<body id="body">
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Fórmulario de cadastro</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="rzSocial" id="rzSocial" class="inputUser" required>
+                    <label for="rzSocial" class="labelInput">Razão social</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="fantasyName" id="fantasyName" class="inputUser" required>
+                    <label for="fantasyName" class="labelInput">Nome fantasia</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Email</label>
+                </div>
+                <br>
+                <p>Região</p>
+                <input type="radio" id="sg" name="region" value="sg" required>
+                <label for="sg">São Gonçalo</label>
+                <br>
+                <input type="radio" id="niteroi" name="region" value="niteroi" required>
+                <label for="niteroi">Niterói</label>
+                <br>
+                <input type="radio" id="lg" name="region" value="lg" required>
+                <label for="lg">Região dos lagos</label>
+                <br>
+                <br><br>
+                <input type="date" name="date" id="date" required>
+                <label for="date" >Melhor data para contato</label>
+                <br><br><br>
+                <div class="inputBox">
+                    <input type="text" name="address" id="address" class="inputUser" required>
+                    <label for="adress" class="labelInput">Endereço do estabelecimento</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="cnpj" id="cnpj" class="inputUser" required>
+                    <label for="cnpj" class="labelInput">CNPJ da empresa</label>
+                </div>
+                <br>
+                <p>Aceita voucher (Alelo, VR)</p>
+                <input type="radio" id="alelo" name="voucher" value="alelo" required>
+                <label for="alelo">Sim alelo</label>
+                <br>
+                <input type="radio" id="vr" name="voucher" value="vr" required>
+                <label for="vr">Sim VR</label>
+                <br>
+                <input type="radio" id="vrAlelo" name="voucher" value="vrAlelo" required>
+                <label for="vrAlelo">Sim alelo e VR</label>
+                <br>
+                <input type="radio" id="not" name="voucher" value="not" required>
+                <label for="not">Não</label>
+                <br><br><br>
+                <div class="inputBox">
+                    <input type="text" name="" id="tpEstablishment" class="inputUser" required>
+                    <label for="tpEstablishment" class="labelInput">Tipo de estabelecimento</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="phoneNumber" id="phoneNumber" class="inputUser" required>
+                    <label for="phoneNumber" class="labelInput">Telefone</label>
+                </div>
+                <br>
+                <input type="submit" class="submit">
+                <br>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
