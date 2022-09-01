@@ -17,15 +17,15 @@ body {
 }
 
 fieldset {
-    border: 3px solid green;
+    border: 3px solid lawngreen;
     border-radius: 5px;
 }
 
 legend {
-    border: 1px solid green;
+    border: 1px solid lawngreen;
     padding: 10px;
     text-align: center;
-    background-color: green;
+    background-color: lawngreen;
     border-radius: 8px;
 }
 
@@ -55,7 +55,7 @@ legend {
 .inputUser:valid ~ .labelInput {
     top: -20px;
     font-size: 12px;
-    color: green;
+    color: lawngreen;
 }
 
 #date {
